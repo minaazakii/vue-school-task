@@ -28,6 +28,12 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+    'available_timezones' => [
+        'CET',
+        'CST',
+        'GMT+1',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
